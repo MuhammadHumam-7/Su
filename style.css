@@ -1,0 +1,48 @@
+body{
+    background:#0F172A;
+    color:white;
+    font-family:Segoe UI,sans-serif;
+}
+
+.card{
+    background:#1E293B;
+    border:none;
+    color:white;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(139,92,246,.5);
+}
+
+.btn-primary{
+    background:#8B5CF6;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#EC4899;
+}
+
+.hero{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    background:linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ),
+    url('../images/banner.jpg');
+
+    background-size:cover;
+}
+
+.glass{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+}
